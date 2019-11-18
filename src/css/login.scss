@@ -1,0 +1,49 @@
+.loginCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 35%;
+    margin:100px auto;
+
+
+}
+.email{
+    width: 59%;
+}
+.emailField{
+    width: 90%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%
+}
+
+.text{
+    cursor: pointer;
+}
+
+.text:hover{
+    color: #1a73e8 ;
+}
+@media only screen and (max-width: 600px) {
+    .loginCard{
+       
+        max-width: 95%;
+        margin:100px auto;
+    
+    
+    }
+
+    .email{
+        width: 95%;
+    }
+    .emailField{
+        width: 90%;
+    }
+    
+
+}
